@@ -1,0 +1,19 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.services{
+    display: flex;
+    gap: 50px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+#service{
+    padding: 50px;
+    border: 2px solid  rgb(124, 23, 111);
+    border-radius: 5px;
+}
+#services{
+    margin-left: 40%;
+    margin-top: 30px;
+    font-size: 2.0em;
+}

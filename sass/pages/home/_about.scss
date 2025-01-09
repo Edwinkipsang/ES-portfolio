@@ -1,0 +1,97 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+
+.sangkip{
+    margin-left: 35%;
+    h1{
+        font-size: 2.7em;
+    }
+    p{
+        font-size: 1.2em;
+        
+    }
+}
+.enjoy{
+    margin-left: 5%;
+}
+a{
+    .btn-hire{
+        margin-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 10px;
+        margin-right: 45px;
+        border: none;
+
+        background-color: #fff;
+        color: rgb(124, 23, 111);
+        border: 2px solid rgb(5, 0, 4);
+        &:hover{
+            background-color: rgb(17, 17, 17);
+            color: #fff;
+        }
+    }
+}
+#about-me{
+    background-color: #b805a0;
+    height: 50vh;
+}
+.me{
+    display: flex;
+    gap: 25%;
+    margin-left: 10%;
+}
+#es{
+    margin-top: 40px;
+}
+.about{
+    display: flex;
+    margin-top: 10px;
+    gap: 50px;
+}
+#p{
+    margin-left: 35%;
+}
+#name{
+    margin-left: 35%;
+}
+#birth{
+    margin-left: 35%;
+}
+#address{
+    margin-left: 30%;
+}
+#no{
+    margin-left: 25%;
+}#project{
+    margin-left: 5%;
+}
+#port{
+    border-radius: 50px;
+    margin-top: -30%;
+    box-shadow: 2px 3px 4px 5px #fff;
+}
+.btn-cv{
+    margin-top: 30px;
+}
+.progress{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    gap: 50px;
+}
+.business{
+border:2px solid #b805a0;
+padding: 30px;
+border-radius: 10px;
+background-color: #b805a0;
+h1{
+    margin-left: 10%;
+    // color: #00B7FF;
+    color: #fff;
+}
+}

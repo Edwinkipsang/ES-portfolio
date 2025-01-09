@@ -1,0 +1,61 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.hero-section{
+    margin-left: 5%;
+    display: flex;
+    gap: 17%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.p{
+    margin-top: 10px;
+}
+.hero-button{
+    margin-top: 20px;
+    gap: 30px;
+    a{
+        .btn-view{
+            margin-left: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10px;
+            margin-right: 45px;
+            border: 2px solid rgb(124, 23, 111);
+            color: rgb(124, 23, 111);
+            background-color: #fff;
+            &:hover{
+               color: #fff;
+               background-color:  rgb(124, 23, 111);
+            }
+        }
+        .btn-hire{
+            margin-left: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 35px;
+            padding-right: 35px;
+            border-radius: 10px;
+            margin-right: 45px;
+            border: none;
+            background-color: rgb(124, 23, 111);
+            color: #fff;
+            &:hover{
+                background-color: #fff;
+                color: rgb(124, 23, 111);
+                border: 2px solid rgb(124, 23, 111);
+            }
+        }
+    }
+}
+.hello{
+    font-size: 3.6em;
+}
+.section{
+    margin-top: 30px;
+    p{
+        font-size: 1.2em;
+    }
+}

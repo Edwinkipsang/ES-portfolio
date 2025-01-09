@@ -1,0 +1,35 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+nav{
+    display: flex;
+    gap: 30%;
+    // position: fixed;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-center{
+    gap: 50px;
+   ul{
+    display: flex;
+    gap: 50px;
+    li{
+        font-size: 1.7em;
+        margin-top: 20px;
+        a{
+            color: black;
+            &:hover{
+                color: rgb(124, 23, 111) ;
+            }
+        }
+    }
+   }
+}
+.nav-right{
+    border-left: 2px solid gray;
+    ul{
+        display: flex;
+
+    }
+}

@@ -1,0 +1,21 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+#my{
+    margin-left: 40%;
+    font-size: 2.0em;
+}
+#sp{
+    margin-left: 35%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#to{
+    margin-left: 34%;
+}
+.kill{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    margin-top: 4%;
+}

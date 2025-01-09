@@ -1,0 +1,120 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+// .details{
+//     display: flex;
+// }
+// .btn-send{
+//     margin-left: 10px;
+//         padding-top: 10px;
+//         padding-bottom: 10px;
+//         padding-left: 35px;
+//         padding-right: 35px;
+//         border-radius: 10px;
+//         margin-right: 45px;
+//         border: none;
+
+//         background-color: #fff;
+//         color: rgb(124, 23, 111);
+//         border: 2px solid rgb(5, 0, 4);
+//         &:hover{
+//             background-color: rgb(124, 23, 111);
+//             color: #fff;
+//             border: none;
+//         }
+// }
+
+
+.background{
+    background-color: rgb(160, 196, 202);
+}
+#welcome{
+    margin-left: 36%;
+}
+.form{
+    
+    border: 2px solid gray;
+    background-color: rgb(252, 249, 249);
+    border-radius: 10px;
+    padding:20px 199px 10px 30px ;
+    // padding-right:40%;
+ 
+ }
+ .details{
+    display: flex;
+    margin-top: 10px;
+    gap: 200px;
+
+ }
+ #width{
+    width: 190%;
+    padding: 5px;
+ }
+ .info{
+    margin-top: 5%;
+ }
+ .icons{
+    display: flex;
+    gap: 30px;
+    margin-top:10px ;
+ }
+ .contact{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    // background-color: rgb(175, 172, 172) ;
+    padding: 10px 0px;
+    padding-bottom: 70px;
+    margin-top: 20px;
+ 
+ }
+ #message{
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+ p{
+    margin-right: 30%;
+ }
+
+
+ .personal-info{
+    display: flex;
+    gap:30px;
+    margin-top:20px;
+ }
+ #icon{
+    margin-top: 3px;
+    
+ }
+ #person{
+    margin-bottom: 20px;
+ }
+ .btn-send{
+    color:black;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 2px solid  rgb(124, 23, 111);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 130%;
+    &:hover{
+       background-color:  rgb(124, 23, 111);
+       color: azure;
+ 
+    }
+ 
+ }
+ #get{
+    margin-left: 35%;
+    margin-top: 5px;
+ }
+ #today{
+    margin-left: 43%;
+    margin-top: 5px;
+ }
+#map{
+    // padding-right: ;
+    width: 900px;
+    margin-left: 20%;
+}

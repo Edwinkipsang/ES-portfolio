@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-section {
+  margin-left: 5%;
+  display: flex;
+  gap: 17%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.p {
+  margin-top: 10px;
+}
+
+.hero-button {
+  margin-top: 20px;
+  gap: 30px;
+}
+.hero-button a .btn-view {
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-right: 45px;
+  border: 2px solid rgb(124, 23, 111);
+  color: rgb(124, 23, 111);
+  background-color: #fff;
+}
+.hero-button a .btn-view:hover {
+  color: #fff;
+  background-color: rgb(124, 23, 111);
+}
+.hero-button a .btn-hire {
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+  margin-right: 45px;
+  border: none;
+  background-color: rgb(124, 23, 111);
+  color: #fff;
+}
+.hero-button a .btn-hire:hover {
+  background-color: #fff;
+  color: rgb(124, 23, 111);
+  border: 2px solid rgb(124, 23, 111);
+}
+
+.hello {
+  font-size: 3.6em;
+}
+
+.section {
+  margin-top: 30px;
+}
+.section p {
+  font-size: 1.2em;
+}
+
+nav {
+  display: flex;
+  gap: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav-center {
+  gap: 50px;
+}
+.nav-center ul {
+  display: flex;
+  gap: 50px;
+}
+.nav-center ul li {
+  font-size: 1.7em;
+  margin-top: 20px;
+}
+.nav-center ul li a {
+  color: black;
+}
+.nav-center ul li a:hover {
+  color: rgb(124, 23, 111);
+}
+
+.nav-right {
+  border-left: 2px solid gray;
+}
+.nav-right ul {
+  display: flex;
+}
+
+.sangkip {
+  margin-left: 35%;
+}
+.sangkip h1 {
+  font-size: 2.7em;
+}
+.sangkip p {
+  font-size: 1.2em;
+}
+
+.enjoy {
+  margin-left: 5%;
+}
+
+a .btn-hire {
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+  margin-right: 45px;
+  border: none;
+  background-color: #fff;
+  color: rgb(124, 23, 111);
+  border: 2px solid rgb(5, 0, 4);
+}
+a .btn-hire:hover {
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+}
+
+#about-me {
+  background-color: #b805a0;
+  height: 50vh;
+}
+
+.me {
+  display: flex;
+  gap: 25%;
+  margin-left: 10%;
+}
+
+#es {
+  margin-top: 40px;
+}
+
+.about {
+  display: flex;
+  margin-top: 10px;
+  gap: 50px;
+}
+
+#p {
+  margin-left: 35%;
+}
+
+#name {
+  margin-left: 35%;
+}
+
+#birth {
+  margin-left: 35%;
+}
+
+#address {
+  margin-left: 30%;
+}
+
+#no {
+  margin-left: 25%;
+}
+
+#project {
+  margin-left: 5%;
+}
+
+#port {
+  border-radius: 50px;
+  margin-top: -30%;
+  box-shadow: 2px 3px 4px 5px #fff;
+}
+
+.btn-cv {
+  margin-top: 30px;
+}
+
+.progress {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  gap: 50px;
+}
+
+.business {
+  border: 2px solid #b805a0;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #b805a0;
+}
+.business h1 {
+  margin-left: 10%;
+  color: #fff;
+}
+
+#h3 {
+  margin-left: 33%;
+  font-size: 2.7em;
+  margin-top: 30px;
+}
+
+#for {
+  margin-left: 20%;
+}
+
+#dp {
+  margin-left: 23%;
+}
+
+#after {
+  margin-left: 29%;
+}
+
+#before {
+  margin-left: 30%;
+}
+
+.process {
+  display: flex;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.fa-solid {
+  margin-left: 30%;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgb(248, 182, 237);
+  border-radius: 5px;
+}
+
+.h5 {
+  margin-left: 30%;
+  font-size: 1.2em;
+}
+
+.h6 {
+  margin-left: 25%;
+  font-size: 1.2em;
+}
+
+.h7 {
+  margin-left: 30%;
+  font-size: 1.2em;
+}
+
+.h8 {
+  margin-left: 10%;
+  font-size: 1.2em;
+}
+
+.steps {
+  border: 2px solid rgb(124, 23, 111);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.develop {
+  margin-bottom: 45px;
+}
+
+#my {
+  margin-left: 40%;
+  font-size: 2em;
+}
+
+#sp {
+  margin-left: 35%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#to {
+  margin-left: 34%;
+}
+
+.kill {
+  display: flex;
+  gap: 10%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.services {
+  display: flex;
+  gap: 50px;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+#service {
+  padding: 50px;
+  border: 2px solid rgb(124, 23, 111);
+  border-radius: 5px;
+}
+
+#services {
+  margin-left: 40%;
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+.background {
+  background-color: rgb(160, 196, 202);
+}
+
+#welcome {
+  margin-left: 36%;
+}
+
+.form {
+  border: 2px solid gray;
+  background-color: rgb(252, 249, 249);
+  border-radius: 10px;
+  padding: 20px 199px 10px 30px;
+}
+
+.details {
+  display: flex;
+  margin-top: 10px;
+  gap: 200px;
+}
+
+#width {
+  width: 190%;
+  padding: 5px;
+}
+
+.info {
+  margin-top: 5%;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.contact {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  padding-bottom: 70px;
+  margin-top: 20px;
+}
+
+#message {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+p {
+  margin-right: 30%;
+}
+
+.personal-info {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#icon {
+  margin-top: 3px;
+}
+
+#person {
+  margin-bottom: 20px;
+}
+
+.btn-send {
+  color: black;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 2px solid rgb(124, 23, 111);
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 130%;
+}
+.btn-send:hover {
+  background-color: rgb(124, 23, 111);
+  color: azure;
+}
+
+#get {
+  margin-left: 35%;
+  margin-top: 5px;
+}
+
+#today {
+  margin-left: 43%;
+  margin-top: 5px;
+}
+
+#map {
+  width: 900px;
+  margin-left: 20%;
+}
+
+.projects {
+  display: flex;
+  gap: 250px;
+  margin-left: 10%;
+  margin-top: 50px;
+  z-index: 3;
+}
+
+.index {
+  margin-left: 39%;
+  margin-top: 30px;
+}
+
+.sample {
+  margin-left: 25%;
+  margin-top: -35px;
+  z-index: -1;
+  font-size: 3em;
+  color: rgb(106, 119, 131);
+}
+
+.project h3 {
+  margin-top: 15px;
+  margin-left: 10%;
+}
+
+#bid {
+  margin-left: 25%;
+}
+
+#dish {
+  margin-left: 22%;
+}
