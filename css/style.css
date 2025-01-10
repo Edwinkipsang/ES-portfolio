@@ -427,20 +427,26 @@ p {
   gap: 250px;
   margin-left: 10%;
   margin-top: 50px;
-  z-index: 3;
 }
 
 .index {
-  margin-left: 39%;
-  margin-top: 30px;
+  position: absolute;
+  padding-top: 15px;
+  margin-top: 10px;
+  text-align: center;
+  left: 45%;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 .sample {
-  margin-left: 25%;
-  margin-top: -35px;
   z-index: -1;
   font-size: 3em;
-  color: rgb(106, 119, 131);
+  color: rgb(201, 204, 207);
+  position: relative;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .project h3 {
