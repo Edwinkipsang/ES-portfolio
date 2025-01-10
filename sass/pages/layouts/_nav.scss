@@ -33,3 +33,19 @@ nav{
 
     }
 }
+@media  screen and (max-width: 600px) {
+    nav{
+        .logo-word{
+            display: inline-block;
+        }
+        .nav-center{
+           display: none; 
+        }
+        .nav-right{
+            display: none;
+        }
+        .bars{
+            display: inline-block;
+        }
+    }
+}

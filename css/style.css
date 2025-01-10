@@ -84,14 +84,6 @@ a {
   box-shadow: 2px 3px 4px 5px rgb(124, 23, 111);
 }
 
-@media screen and (max-width: 600px) {
-  nav .logo-word {
-    display: inline-block;
-  }
-  nav .nav-center {
-    display: none;
-  }
-}
 nav {
   display: flex;
   gap: 30%;
@@ -124,6 +116,20 @@ nav {
   display: flex;
 }
 
+@media screen and (max-width: 600px) {
+  nav .logo-word {
+    display: inline-block;
+  }
+  nav .nav-center {
+    display: none;
+  }
+  nav .nav-right {
+    display: none;
+  }
+  nav .bars {
+    display: inline-block;
+  }
+}
 .f-container {
   margin: 0 auto;
   border-top: 3px solid rgb(124, 23, 111);
