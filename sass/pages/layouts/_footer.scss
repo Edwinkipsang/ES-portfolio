@@ -1,0 +1,80 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+
+.f-container{
+    margin: 0 auto;
+      // display: flex;
+      // margin-top: 3em;
+      // justify-content: space-between;
+      // align-items: center;
+      border-top: 3px solid  rgb(124, 23, 111);
+    //   background-color: $primary-color;
+      padding: 1px 50px;
+      width: 130%;
+      margin-left: -15%;
+     height: 40vh;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    // margin-left: 5%;
+    margin-top: 10%;
+    background-color:  rgb(124, 23, 111);
+    border-radius: 5px;
+    height: 23vh;
+  
+  }
+  ul{li{
+    h3{
+        color: aliceblue;
+    }
+  }}
+  .ul-footer {
+    list-style: none;
+  }
+  .footer-icon {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  
+  .social-handles {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 20px;
+    gap: 50px;
+  }
+  #image {
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  #list {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .footer-section {
+    display: flex;
+    gap: 10%;
+  }
+  #king{
+    display: flex;
+    gap: 30px;
+  }
+   // MEDIA QUARIES
+   @media screen and (max-width: 600px){
+  //   footer{
+  // width: 80%;
+  
+  //   }
+    .f-schedule{
+      display: none;
+    }
+    #give{
+      margin-left: 20%;
+    }
+    #btn-donate{
+      margin-left: 35%;
+    }
+  
+  
+   }
