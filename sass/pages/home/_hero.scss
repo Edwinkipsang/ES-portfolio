@@ -2,7 +2,7 @@
 @use "../../utilities/variables" as *;
 
 .hero-section{
-    margin-left: 5%;
+    margin-left: 15%;
     display: flex;
     gap: 17%;
     margin-top: 80px;
@@ -57,5 +57,25 @@
     margin-top: 30px;
     p{
         font-size: 1.2em;
+    }
+}
+// #image{
+//     border-radius: 50px;
+//     margin-top: -10%;
+//     box-shadow: 2px 3px 4px 5px rgb(124, 23, 111); 
+// }
+.imag{
+    border-radius: 50px;
+    margin-top: -10%;
+    box-shadow: 2px 3px 4px 5px rgb(124, 23, 111);   
+}
+@media  screen and (max-width: 600px) {
+    nav{
+        .logo-word{
+            display: inline-block;
+        }
+        .nav-center{
+           display: none; 
+        }
     }
 }
