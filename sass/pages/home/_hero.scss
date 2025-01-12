@@ -70,5 +70,12 @@
     box-shadow: 2px 3px 4px 5px rgb(124, 23, 111);   
 }
 @media  screen and (max-width: 600px) {
+    .hero-section{
+        margin-top: 60px;
+        margin-left: 20px;
+        flex-direction: column-reverse;
+        gap: 50px;
+        
+    }
     
 }

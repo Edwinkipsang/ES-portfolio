@@ -24,9 +24,13 @@
 //         }
 // }
 
-
-.background{
-    background-color: rgb(160, 196, 202);
+// .nav-hero{
+//    background-color: rgb(204, 2, 177);
+// }
+.talk {
+    background-color: rgb(204, 2, 177);
+    padding-bottom: 80px;
+    padding-top: 100px;
 }
 #welcome{
     margin-left: 36%;
@@ -117,4 +121,7 @@
     // padding-right: ;
     width: 900px;
     margin-left: 20%;
+}
+@media screen and (max-width:600px){
+   
 }

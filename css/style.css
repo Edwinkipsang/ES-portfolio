@@ -84,6 +84,14 @@ a {
   box-shadow: 2px 3px 4px 5px rgb(124, 23, 111);
 }
 
+@media screen and (max-width: 600px) {
+  .hero-section {
+    margin-top: 60px;
+    margin-left: 20px;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}
 nav {
   display: flex;
   gap: 30%;
@@ -309,6 +317,11 @@ a .btn-view:hover {
   color: #fff;
 }
 
+@media screen and (max-width: 600px) {
+  .me {
+    flex-direction: column;
+  }
+}
 #h3 {
   margin-left: 33%;
   font-size: 2.7em;
@@ -425,8 +438,10 @@ a .btn-view:hover {
   margin-left: 37%;
 }
 
-.background {
-  background-color: rgb(160, 196, 202);
+.talk {
+  background-color: rgb(204, 2, 177);
+  padding-bottom: 80px;
+  padding-top: 100px;
 }
 
 #welcome {
@@ -525,9 +540,9 @@ p {
 
 .projects {
   display: flex;
-  gap: 250px;
+  gap: 220px;
   margin-left: 10%;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .index {
@@ -583,4 +598,10 @@ a .btn-hire:hover {
   background-color: #fff;
   color: rgb(124, 23, 111);
   border: 2px solid rgb(124, 23, 111);
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    flex-direction: column;
+  }
 }
