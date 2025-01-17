@@ -123,5 +123,25 @@
     margin-left: 20%;
 }
 @media screen and (max-width:600px){
+   .contact{
+       flex-direction: column;
    
+   }
+   .details{
+      flex-direction: column;
+   }
+   #map{
+      width: 99%;
+      margin-left: 2%;
+   }
+   #welcome{
+      font-size: 1.2em;
+      margin-left: 15%;
+   }
+   #get{
+      margin-left: 10%;
+   }
+   #today{
+      margin-left: 10%;
+   }
 }
