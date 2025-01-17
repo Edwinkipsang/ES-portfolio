@@ -18,4 +18,28 @@
     gap: 10%;
     margin-left: 5%;
     margin-top: 4%;
+    :hover{
+        transform: translate(0,-10%);
+    }
+}
+@media screen and (max-width:600px){
+    // .kill{
+
+    //     // flex-direction:column ;
+    // }
+    #skills{
+        width: 15%;
+    }
+    #my{
+        margin-left: 30%;
+        font-size: 1.5em;
+    }
+    #sp{
+        margin-left: 5%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #to{
+        margin-left: 5%;
+    }
 }

@@ -25,6 +25,9 @@
     display: flex;
     margin-top: 30px;
     gap: 50px;
+    :hover{
+        transform: translate(0,-10%);
+    }
 }
 .fa-solid{
     margin-left: 30%;
@@ -58,4 +61,55 @@ border-radius: 30px;
 }
 .develop{
     margin-bottom: 45px;
+}
+@media screen and (max-width:600px){
+    // .process{
+    //     flex-direction: column;
+        
+    // }
+    .process{
+        gap: 20px;
+    }
+    #h3{
+        font-size: 1.5em;
+        margin-left: 20%;
+    }
+    #for{
+        margin-left: 3%;
+      }
+      #dp{
+          margin-left: 3%;
+      }
+      #after{
+          margin-left: 3%;
+      }
+      #before{
+          margin-left: 3%;
+      }
+      .steps{
+        border: 2px solid rgb(124, 23, 111) ;
+        padding: 20px;
+        padding-left: -10%;
+        width:30%;
+        border-radius: 30px;
+        }
+        .h5{
+            margin-left: 3%;
+            font-size: 1.0em;
+        }
+        .h6{
+            margin-left: 1%;
+            font-size: 1.0em;
+        }
+        .h7{
+            margin-left: 3%;
+            font-size: 1.0em;
+        }
+        .h8{
+            margin-left: 10%;
+            font-size: 1.2em;
+        }
+        .research{
+            display: none;
+        }
 }

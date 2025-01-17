@@ -25,3 +25,21 @@ margin-left: 35%;
 #that{
     margin-left: 37%;
 }
+@media screen and (max-width:600px){
+    .services{
+        flex-direction: column;
+        display: none;
+    }
+    #services{
+        margin-left: 30%;
+        margin-top: 30px;
+        font-size: 1.5em;
+    }
+    #i{
+    margin-left: 2%;
+    }
+    #that{
+        margin-left: 2%;
+    }
+    
+}

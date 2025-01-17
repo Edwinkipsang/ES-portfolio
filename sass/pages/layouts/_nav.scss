@@ -28,7 +28,8 @@ nav{
    }
 }
 .nav-right{
-    border-left: 2px solid gray;
+    border-left: 2px solid gray
+    height 2vh;
     ul{
         display: flex;
 
@@ -46,6 +47,7 @@ nav{
             display: none;
         }
         .bars{
+            margin-left: 30%;
             display: inline-block;
         }
     }

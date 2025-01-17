@@ -103,4 +103,66 @@ h1{
     .me{
         flex-direction: column;
     }
+    .progress{
+        margin-top: 3%;
+        // // flex-wrap: wrap;
+        // flex-direction: column;
+width: 57%;
+margin-left: 5%;         
+
+        grid-template: auto;
+        gap: 0.5rem;
+        margin-left: -3%;
+        
+    }
+    .business{ 
+   
+        width: 45%;
+        // margin-left: -30%;
+        h1{
+            font-size: 1.0em;
+        }
+
+    }
+    #abel{
+        
+            font-size: 0.9em;
+        
+    }
+
+    .sangkip{
+        margin-left: 30%;
+        margin-bottom: 40px;
+        h1{
+            margin-left: 5%;
+            font-size: 1.9em;
+            color: #fff;
+        }
+        p{
+            font-size: 0.9em;
+            margin-left: -10%;
+            
+        }
+    }
+    #port{
+        display: none;
+    }
+    #p{
+        margin-left: 23%;
+    }
+    #project{
+        margin-left: 2%;
+    }
+    #no{
+        margin-left: 16%;
+    }
+    #birth{
+        margin-left: 22%;
+    }
+    #address{
+        margin-left: 19%;
+    }
+    #name{
+        margin-left: 22%;
+    }
 }

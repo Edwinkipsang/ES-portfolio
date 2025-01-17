@@ -62,10 +62,11 @@
   }
    // MEDIA QUARIES
    @media screen and (max-width: 600px){
-  //   footer{
-  // width: 80%;
+    .footer{
+  width: 80%;
+  display: none;
   
-  //   }
+    }
     .f-schedule{
       display: none;
     }
