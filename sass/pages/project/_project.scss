@@ -6,8 +6,6 @@
     gap: 220px;
     margin-left: 10%;
     margin-top: 90px;
-    // z-index: 3;
-    // margin-top: 30px;
     
 }
 .index{
@@ -69,6 +67,22 @@ a {
 @media screen and (max-width:600px) {
     .projects{
         flex-direction: column;
+        gap: 50px;
 
     }
+    .project{
+        border: 2px solid rgb(124, 23, 111);
+        padding: 20px 30px;
+        width:65%;
+        h3{
+            margin-top: 15px;
+        }
+    }
+    #dish{
+        margin-left: 5%;
+    }
+    #bid{
+        margin-left: 15% ;
+    }
+
 }

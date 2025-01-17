@@ -86,6 +86,7 @@ a {
 
 #G :hover {
   transform: translate(0, -10%);
+  box-shadow: 2px 3px 4px 5px rgb(26, 25, 25);
 }
 
 @media screen and (max-width: 600px) {
@@ -146,6 +147,10 @@ nav {
 }
 .nav-right ul {
   display: flex;
+}
+
+.bars {
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -769,5 +774,20 @@ a .btn-hire:hover {
 @media screen and (max-width: 600px) {
   .projects {
     flex-direction: column;
+    gap: 50px;
+  }
+  .project {
+    border: 2px solid rgb(124, 23, 111);
+    padding: 20px 30px;
+    width: 65%;
+  }
+  .project h3 {
+    margin-top: 15px;
+  }
+  #dish {
+    margin-left: 5%;
+  }
+  #bid {
+    margin-left: 15%;
   }
 }
